@@ -1,24 +1,23 @@
-# Hamayoun Ali portfolio
-This project is to buitl mobile version sceleton of my portfolio.
+# KabulKia
+Software Development Company 
 
-## Portfolio screen shot
-<img width="257" alt="readme" src="https://user-images.githubusercontent.com/22744775/170495906-1244ad4c-d8dd-4b02-81b8-356fd90783c4.PNG">
+## KabulKia screen shot
 
 ## Page Link 
-https://hamayounali.github.io/hamayoun-portfolio
+
 
 # Setup
 Clone this repository
 
-$ git clone git@github.com:Hamayounali/hamayoun-portfolio.git
+$ git clone git@github.com:Hamayounali/KabulKia.git
 $ cd hamayoun-portfolio
 
 Run the live server or open index.html with your browser
 
 # Built With
 
-• HTML and CSS
-
+• HTML, CSS and BootStrap
+• JavaScript
 • VSCode
 
 # Authors
