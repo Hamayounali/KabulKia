@@ -18,6 +18,8 @@ function menuFunction() {
   }
 }
 
+menuFunction();
+
 function hideMenu() {
   const z = document.getElementById('myTopnav');
   z.className = 'topnav';
