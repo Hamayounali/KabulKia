@@ -136,12 +136,12 @@ body {
 
   .mission {
     text-align: center;
-    padding: 50px 200px 50px 200px ;
+    padding: 50px 200px 50px 200px;
   }
 
   .about-activity {
     text-align: center;
-    padding: 20px 100px 20px 100px ;
+    padding: 20px 100px 20px 100px;
   }
 
   .footer-about {
@@ -182,7 +182,7 @@ body {
   .topnav {
     padding-right: 20px;
     padding-left: 20px;
-    background-color: rgba(0,0, 0, 0.0);
+    background-color: rgba(0, 0, 0, 0.0);
     box-shadow: none;
   }
 
@@ -230,6 +230,7 @@ body {
     margin-top: 30px;
     font-size: 20px;
   }
+
   .kabulKia {
     font-family: 'coco', sans-serif;
     font-size: 20px;
@@ -249,10 +250,10 @@ body {
 
   .services-cards {
     display: flex;
-    background-color: rgba(255,255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     padding-top: 15px;
     border: 2px solid #272a31;
-    align-items:center;
+    align-items: center;
   }
 
   .services-cards:hover {
@@ -267,12 +268,11 @@ body {
 
   .employee-name {
     color: #1b1b1b;
-    /* margin-top: 24px; */
     font-family: 'coco', sans-serif;
-  } 
+  }
 
   .see-whole {
-    text-align: center; 
+    text-align: center;
     color: white;
     margin: 40px;
     padding: 30px;
