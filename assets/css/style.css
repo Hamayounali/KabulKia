@@ -201,6 +201,23 @@ body {
     top: 0;
   }
 
+  .see-whole a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #272a31;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+  }
+
   .topnav.responsive a {
     float: none;
     display: block;
@@ -237,18 +254,6 @@ body {
     font-size: 20px;
   }
 
-  .topnav > a {
-    float: left;
-    display: block;
-    color: #272a31;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Inter, sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    text-align: left;
-  }
-
   .services-cards {
     display: flex;
     background-color: rgba(255, 255, 255, 0.1);
@@ -278,11 +283,6 @@ body {
     margin: 40px;
     padding: 30px;
     background-color: #ec5242;
-  }
-
-  .see-whole > a {
-    text-decoration: none;
-    color: white;
   }
 
   .footer-about {
