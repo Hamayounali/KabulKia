@@ -64,24 +64,23 @@ function toggleButton(a) {
   },
 ];
 
+function AddNew() {
+  for (let j = 0; j < 6; j += 1) {
+    const newH1 = document.getElementById(`name-${j}`)
+    newH1.insertAdjacentText('beforeend', employees[j].name);
 
-  function AddNew() {
-    for (let j = 0; j < 6; j += 1) {
-      const newH1 = document.getElementById(`name-${j}`)
-      newH1.insertAdjacentText('beforeend', employees[j].name);
+    const img = document.getElementById(`img-${j}`)
+    img.src = employees[j].image;
 
-      const img = document.getElementById(`img-${j}`)
-      img.src = employees[j].image;
+    const position = document.getElementById(`position-${j}`)
+    position.insertAdjacentText('beforeend', employees[j].position);
 
-      const position = document.getElementById(`position-${j}`)
-      position.insertAdjacentText('beforeend', employees[j].position);
+    const education = document.getElementById(`education-${j}`)
+    education.insertAdjacentText('beforeend', employees[j].education);
 
-      const education = document.getElementById(`education-${j}`)
-      education.insertAdjacentText('beforeend', employees[j].education);
-  
-    }
   }
+}
 
-  document.addEventListener('DOMContentLoaded', () => {
-    AddNew();
-  });
+document.addEventListener('DOMContentLoaded', () => {
+  AddNew();
+});
