@@ -4,15 +4,389 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>KabulKia</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+<style>
+
+	@font-face {
+		font-family: "coco"; 
+		src: url("assets/fonts/Cocogoose Pro-trial.ttf");
+	}
+
+	@font-face {
+		font-family: "cocol"; 
+		src: url("assets/fonts/Cocogoose Pro Light-trial.ttf");
+	}
+
+.heading {
+	background-image: url(assets/images/heading-kabulkia.png);
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+
+.program-back {
+	background-image: url(assets/images/program-background.png);
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;	
+}
+
+.kabulKia {
+	background-image: url(assets/images/kabulkia-back.jpg);
+    background-repeat: repeat;
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+</style>
+
 <body>
-<section id="header">
-<h1>
-	Welcome to KabulKia
-</h1>
-</section>
+<div class="container-fluid heading">
+	<div class="row mobile-hide" >
+		<div style="background-color: #272a31; color: white;">
+			<div class="container">
+			<div class="col-sm-12" style="margin-top: 6px; margin-bottom: 6px; font-size: 12px;">
+				<span class="pull-right" style="font-size: 100%;"> 
+				<span class="fa fa-facebook-f" style=" font-size: 16px"> &nbsp &nbsp
+				</span> <span class="fa fa-twitter" style=" font-size: 16px"></span> &nbsp &nbsp
+				<span> English</span> &nbsp &nbsp
+				<span> My page</span> &nbsp &nbsp
+				<span> Log out</span>
+				</span>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="topnav" id="myTopnav">
+			<div class="container">
+				<span class="mobile-hide" id="brand">
+					<a href="index.html">
+						<img width="80%" src="assets/images/logo.png">
+					</a>
+				</span>
+				
+				<div onclick="hideMenu()" class="menu-right">
+					<span></span>
+
+					<a href="#portfolio">Portfolio</a>
+					<a href="about.html">About</a>
+					<a href="#contacts">Contacts</a>
+					<span class="hide">
+					<a href="#" style="color: white;"><i class="fa fa-envelope"></i></a>
+					</span>
+
+				</div>
+				<a href="#" class="icon" onclick="menuFunction()">
+					<div class="icon-bar desktop-hide" onclick="toggleButton(this)">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+		<div class="row">
+			<div class="container">
+				<h3 class="hello"> "Hello! Sharing World"</h3>
+				<h1 class="kabulKia"> KABULKIA COMPANY ltd <br>
+					SOFTWARE DEVELOPMENT <br>
+					& IT SERVICES 
+				</h1>
+					<p class="about-short contacts">
+						We design and develop software applications and websites using the latest software technologies.
+					</p>
+				<h3 class="contacts">
+					Contacts & Social Media
+				</h3>
+				<p class="contacts">
+					info@kabulkia.com - 0093744818597 - &nbsp <span class="fa fa-facebook-f" style=" font-size: 16px"> &nbsp
+					</span> <span class="fa fa-twitter" style=" font-size: 16px"></span> 
+				</p>
+				<br>
+				<br>
+			</div>
+		</div>
+</div>
+<div class="container-fluid program-back">
+	<div class="row services">
+		<h3> Services</h3>
+		<hr class="line">
+	</div>
+	<div class="row mobile-hide">
+		<div class="container" style="color: white;">
+			<div class="row">
+				<div class="col-sm-3 services-cards">
+					<br>
+					<i class="fa fa-mobile" style="font-size:50px;color:white"></i>
+					<h4 class="card-body-heading">Mobile Application Development</h4>
+					<p>
+						We have a professional team of android based application developers 
+						who implements agile development process. The team handles the entire development
+						 process from initial ideation and product definition through to development and submission to Google Play.
+					</p>
+					<br>
+				</div>
+				<div class="col-sm-3 services-cards">
+					<br>
+					<i class="fa fa-code" style="font-size:50px;color:white"></i>
+					<h4 class="card-body-heading">Website Development</h4>
+					<p>
+						We develop custom and CMS based websites according to our clients' demands. 
+						Our professional design and development teams are equipped with latest and modern technologies 
+						of the day. We strive to design a user friendly easy to use user interface.
+					</p>
+					<br>
+				</div>
+				<div class="col-sm-3 services-cards">
+					<br>
+					<i class="fa fa-desktop" style="font-size:50px;color:white"></i>
+					<h4 class="card-body-heading">Software Development</h4>
+					<p>
+						KabulKia application development team offers standard service in database development, 
+						web based application and desktop application such as: Library management system, 
+						school management system, payroll, attendance and recruitment management systems..
+					</p>
+					<br>
+				</div>
+				<div class="col-sm-3 services-cards">
+					<br>
+					<li class="glyphicon glyphicon-education" style="font-size:45px;color:white"></li>
+					<h4 class="card-body-heading">Software Development Training</h4>
+					<p>
+						We teach you how to develop a website using the latest development tools and practices. 
+						Our expert teachers guide you through complete site development, application building and functionality
+						 testing via easy-to-follow web development courses
+					</p>
+					<br>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Mobile dispaly  -->
+	<div class="row desktop-hide">
+		<div class="container" style="color: white;">
+			<div class="row services-cards">
+				<div class="col-xs-1">
+					<i class="fa fa-mobile" style="font-size:3em;color:white"></i>
+				</div>
+				<div class="col-xs-3">
+					<h4 class="card-body-heading">Mobile</h4>
+				</div>
+				<div class="col-xs-8">
+					<p>
+						We have a professional team of android based application developers 
+						who implements agile development process. 
+					</p>
+				</div>
+			</div>
+			<div class="row services-cards">
+				<div class="col-xs-1">
+					<i class="fa fa-code" style="font-size:2.5em;color:white"></i>
+				</div>
+				<div class="col-xs-3">
+					<h4 class="card-body-heading">Website</h4>
+				</div>
+				<div class="col-xs-8">
+					<p>
+						We develop custom and CMS based websites according to our clients' demands. 
+						Our professional design and development teams.
+					</p>
+				</div>
+			</div>
+			<div class="row services-cards">
+				<div class="col-xs-1">
+					<i class="fa fa-desktop" style="font-size:2em;color:white"></i>
+				</div>
+				<div class="col-xs-3">
+					<h4 class="card-body-heading">Application</h4>
+				</div>
+				<div class="col-xs-8">
+					<p>
+						KabulKia application development team offers standard service in database development, 
+						web based application and desktop application
+					</p>
+				</div>
+			</div>
+			<div class="row services-cards">
+				<div class="col-xs-1">
+					<li class="glyphicon glyphicon-education" style="font-size:2em;color:white"></li>
+				</div>
+				<div class="col-xs-3">
+					<h4 class="card-body-heading">Training</h4>
+				</div>
+				<div class="col-xs-8">
+					<p>
+						We teach you how to develop a website using the latest development tools and practices. 
+						Our expert teachers guide you through ...
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row see-whole-program">
+		<h4 class="see-whole"> <a href="#"> SEE THE WHOLE PROGRAM </a>  </h4>
+	</div>
+</div>
+
+<div class="container-fluid employees-container">
+	<div class="container">
+		<div class="row">
+			<h3 class="employee-heading"> Technical Employees </h3>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="col-sm-4 col-xs-5 abc">
+						<img width="100%" id="img-0" alt="Staff image">
+					</div>
+					<div class="col-sm-8 col-xs-7">
+						<h4 class="employee-name" id="name-0">  </h4>
+						<p class="employee-job" id="position-0">
+							
+						</p>
+						<hr class="line-2">
+						<p class="employee-detail" id="education-0">
+							
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="col-sm-4 col-xs-5">
+						<img width="100%" id="img-1" alt="Staff image">
+					</div>
+					<div class="col-sm-8 col-xs-7">
+						<h4 class="employee-name" id="name-1">  </h4>
+						<p class="employee-job" id="position-1">
+							
+						</p>
+						<hr class="line-2">
+						<p class="employee-detail" id="education-1">
+							
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="col-sm-4 col-xs-5">
+						<img width="100%" id="img-2" alt="Staff image">
+					</div>
+					<div class="col-sm-8 col-xs-7">
+						<h4 class="employee-name" id="name-2">  </h4>
+						<p class="employee-job" id="position-2">
+							
+						</p>
+						<hr class="line-2">
+						<p class="employee-detail" id="education-2">
+							
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="col-sm-4 col-xs-5">
+						<img width="100%" id="img-3" alt="Staff image">
+					</div>
+					<div class="col-sm-8 col-xs-7">
+						<h4 class="employee-name" id="name-3">  </h4>
+						<p class="employee-job" id="position-3">
+							
+						</p>
+						<hr class="line-2">
+						<p class="employee-detail" id="education-3">
+
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="col-sm-4 col-xs-5">
+						<img width="100%" id="img-4" alt="Staff image">
+					</div>
+					<div class="col-sm-8 col-xs-7">
+						<h4 class="employee-name" id="name-4">  </h4>
+						<p class="employee-job" id="position-4">
+							
+						</p>
+						<hr class="line-2">
+						<p class="employee-detail" id="education-4">
+
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="col-sm-4 col-xs-5">
+						<img width="100%" id="img-5" alt="Staff image">
+					</div>
+					<div class="col-sm-8 col-xs-7">
+						<h4 class="employee-name" id="name-5">  </h4>
+						<p class="employee-job" id="position-5">
+							
+						</p>
+						<hr class="line-2">
+						<p class="employee-detail" id="education-5">
+
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+</div>
+<div class="container-fluid portfolio">
+	<div class="container">
+		<div class="row">
+			<h3 class="portfolio-title"> Portfolio</h3>
+			<hr class="line">
+			<div class="partner-logo">
+				<a href="https://a10bb.com/"><img class="logo" src="assets/images/a10bblogo.png"></a>
+				<a href="https://chatak-solutions.com/"><img class="logo" src="assets/images/chataklogo.png"></a>
+				<a href="https://www.pim.af/"><img class="logo" src="assets/images/pilogo.png"></a>
+				<a href="https://www.lamoweb.org/"><img class="logo" src="assets/images/lamologo.png"></a>
+				<a href="https://www.khadamatpost.com/"><img class="logo" src="assets/images/khlogo.png"></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid footer">
+	<div class="container">
+		<div class="col-sm-4 col-xs-4">
+			<img class="footer-logo" src="assets/images/logo.png">
+		</div>
+		<div class="col-sm-4 col-xs-8">
+			<h4> KabulKia Software Development Company. Copy right all rights reserved. </h4>
+		</div>
+	</div>
+</div>
 </body>
 <script src="assets/js/index.js"></script>
 </html>

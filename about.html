@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KabulKia</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<style>
+
+	@font-face {
+		font-family: "coco"; 
+		src: url("assets/fonts/Cocogoose Pro-trial.ttf");
+	}
+
+	@font-face {
+		font-family: "cocol"; 
+		src: url("assets/fonts/Cocogoose Pro Light-trial.ttf");
+	}
+
+.heading {
+	background-image: url(assets/images/heading-kabulkia.png);
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+
+.program-back {
+	background-image: url(assets/images/program-background.png);
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;	
+}
+
+.activity-1 {
+    background-image: url(assets/images/activity1.png);
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;	
+}
+
+.activity-2 {
+    background-image: url(assets/images/activity2.png);
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;	
+}
+</style>
+
+<body>
+<div class="container-fluid heading">
+	<div class="row mobile-hide" >
+		<div style="background-color: #272a31; color: white;">
+			<div class="container">
+			<div class="col-sm-12" style="margin-top: 6px; margin-bottom: 6px; font-size: 12px;">
+				<span class="pull-right" style="font-size: 100%;"> 
+				<span class="fa fa-facebook-f" style=" font-size: 16px"> &nbsp &nbsp
+				</span> <span class="fa fa-twitter" style=" font-size: 16px"></span> &nbsp &nbsp
+				<span> English</span> &nbsp &nbsp
+				<span> My page</span> &nbsp &nbsp
+				<span> Log out</span>
+				</span>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="topnav" id="myTopnav">
+			<div class="container">
+				<span class="mobile-hide" id="brand">
+					<a href="index.html">
+						<img width="80%" src="assets/images/logo.png">
+					</a>
+				</span>
+				
+				<div onclick="hideMenu()" class="menu-right">
+					<span></span>
+
+					<a href="#portfolio">Portfolio</a>
+					<a href="#about">About</a>
+					<a href="#contacts">Contacts</a>
+					<span class="hide">
+					<a href="#" style="color: white;"><i class="fa fa-envelope"></i></a>
+					</span>
+
+				</div>
+				<a href="#" class="icon" onclick="menuFunction()">
+					<div class="icon-bar desktop-hide" onclick="toggleButton(this)">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+		<div class="row">
+			<div class="container" style="text-align: center;">
+				<h3 class="hello"></h3>
+				<h1 class="kabulKia"> KABULKIA COMPANY ltd <br>
+					SOFTWARE DEVELOPMENT <br>
+					& IT SERVICES 
+				</h1>
+                <hr class="line">
+                <h5 class="about-detail contacts">
+                    KabulKia, a computer software design, and development company are registered with the Ministry 
+                    of Industry & Commerce (MoIC) of Afghanistan. We design and develop software applications and 
+                    websites using the latest software technologies. We enjoy a dedicated front-end & back-end professional
+                     developer team, and as well as a well-established network of experts and clients. 
+                    Our main focus is to boost our clients' businesses by providing information technology
+                    consultancy and software solutions services after carrying out a deep study of the clients' 
+                    business nature.
+                  
+                </h5>
+				<h3 class="contacts">
+					Contacts & Social Media
+				</h3>
+				<p class="contacts">
+					info@kabulkia.com - 0093744818597 - &nbsp <span class="fa fa-facebook-f" style=" font-size: 16px"> &nbsp
+					</span> <span class="fa fa-twitter" style=" font-size: 16px"></span> 
+				</p>
+				<br>
+				<br>
+			</div>
+		</div>
+</div>
+
+<div class="container-fluid">
+    <div class="container mission">
+        <h3> Mission & Vission</h3>
+        <hr class="line">
+        <p>
+            <b>MISSION:</b> Our mission is to develop user friendly,
+            easy to use website and software applications to bring speed and accuracy in our clients' businesses, using updated technologies.
+        </p>
+        <p> 
+            <b>VISION:</b> to contribute in building a well-connected world.
+        </p>
+        <br>
+
+        <i class="fa fa-bullseye" style="font-size:100px;color:#2B579A"></i>
+    </div>
+    <hr>
+    <div class="container about-activity">
+        <h3> Some of our activites</h3>
+        <hr class="line">
+        <div class="col-sm-5 col-sm-offset-1">
+            <div class="activity-1" style="margin: 10px;">
+                <div class="pi">
+                    <h3> Poshat-e Istanbul</h3>
+                    <p> Derss Production Company, Kabul Afghanistan </p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div class="activity-2" style="margin: 10px;">
+                <div class="pi">
+                    <h3> HAMTA</h3>
+                    <p> Movement for change paryty of Aghanitan </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+</div>
+
+<div class="container-fluid portfolio desktop-hide">
+	<div class="container">
+		<div class="row">
+			<h3 class="portfolio-title"> Portfolio</h3>
+			<hr class="line">
+			<div class="partner-logo">
+				<a href="https://a10bb.com/"><img class="logo" src="assets/images/a10bblogo.png"></a>
+				<a href="https://chatak-solutions.com/"><img class="logo" src="assets/images/chataklogo.png"></a>
+				<a href="https://www.pim.af/"><img class="logo" src="assets/images/pilogo.png"></a>
+				<a href="https://www.lamoweb.org/"><img class="logo" src="assets/images/lamologo.png"></a>
+				<a href="https://www.khadamatpost.com/"><img class="logo" src="assets/images/khlogo.png"></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid footer-about">
+	<div class="container">
+		<div class="col-sm-4 col-xs-4">
+			<img class="footer-logo" src="assets/images/logo.png">
+		</div>
+		<div class="col-sm-4 col-xs-8">
+			<h4> KabulKia Software Development Company. Copy right all rights reserved. </h4>
+		</div>
+	</div>
+</div>
+</body>
+<script src="assets/js/index.js"></script>
+</html>
