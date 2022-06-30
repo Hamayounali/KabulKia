@@ -273,20 +273,20 @@ body {
 
   .see-whole {
     text-align: center; 
-    color:white; 
+    color: white;
     margin: 40px;
     padding: 30px;
     background-color: #ec5242;
   }
 
   .see-whole a {
-    text-decoration: none; 
-    color:white;
+    text-decoration: none;
+    color: white;
   }
 
   .footer-about {
     display: flex;
-    background-color: #ffffff;
+    background-color: #fff;
     min-height: 150px;
     align-items: center;
     color: #1b1b1b;
@@ -352,7 +352,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .logo {
@@ -386,8 +385,8 @@ body {
 }
 
 .employees-container {
-  background-color:#d3d3d3;
-  min-height:400px;
+  background-color: #d3d3d3;
+  min-height: 400px;
 }
 
 .kabulKia {
