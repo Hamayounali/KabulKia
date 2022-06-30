@@ -11,6 +11,7 @@ https://hamayounali.github.io/hamayoun-portfolio
 Clone this repository
 
 $ git clone git@github.com:Hamayounali/KabulKia.git
+
 $ cd kabulkia
 
 Run the live server or open index.html with your browser
