@@ -129,7 +129,7 @@ body {
     padding: 50px;
   }
 
-  a {
+  .abc {
     text-decoration: underline;
     color: white;
   }
@@ -200,7 +200,12 @@ body {
     top: 0;
   }
 
-  .see-whole a {
+  .see-whole {
+    text-decoration: none;
+    color: white;
+  }
+
+  .abc {
     text-decoration: none;
     color: white;
   }
