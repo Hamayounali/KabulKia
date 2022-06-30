@@ -1,4 +1,5 @@
 // Mobile Menu Portions
+/* exported variableName */
 function toggleButton(a) {
   a.classList.toggle('change');
 }
