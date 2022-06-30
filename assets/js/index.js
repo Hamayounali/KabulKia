@@ -26,43 +26,43 @@ function toggleButton(a) {
 
   // Employees
   const employees = [
-    {
-      name: 'Hamayoun Ali',
-      position: 'CEO & Full Stack Devloper',
-      education:'Studied Computer Science, at Katib University, Having more than five experience in computer programming and web development.',
-      image: 'assets/images/hamayoun.png',
-    },
-    {
-      name: 'Omid Babur',
-      position: 'Front-end Developer',
-      education:'Studied Computer Science, at Katib University, Having more than five experience in computer programming and web development.',
-      image: 'assets/images/Omid.png',
-    },
-    {
-      name: 'Hussain Negah',
-      position: 'Finance Consultent',
-      education:'Studied BBA finance, at Katib University, Having more than five experience in computer programming and web development.',
-      image: 'assets/images/hussain.png',
-    },
-    {
-      name: 'Mahdi Shamim',
-      position: 'Website Developer',
-      education:'Studied Computer Science, at Kabul University, Having more than five experience in computer programming and web development.',
-      image: 'assets/images/mahdi.png',
-    },
-    {
-      name: 'Zahra Amiri',
-      position: 'Admin Officer',
-      education:'Studied Computer Science, at Poli Takhnic University, Having more than five experience in computer programming and web development.',
-      image: 'assets/images/shabnam.png',
-    },
-    {
-      name: 'Hamidullah Purdil',
-      position: 'Application Developer',
-      education:'Studied Computer Science, at Poli Takhnic University, Having more than five experience in computer programming and web development.',
-      image: 'assets/images/hamid.png',
-    },
-  ];
+  {
+    name: 'Hamayoun Ali',
+    position: 'CEO & Full Stack Devloper',
+    education:'Studied Computer Science, at Katib University, Having more than five experience in computer programming and web development.',
+    image: 'assets/images/hamayoun.png',
+  },
+  {
+    name: 'Omid Babur',
+    position: 'Front-end Developer',
+    education:'Studied Computer Science, at Katib University, Having more than five experience in computer programming and web development.',
+    image: 'assets/images/Omid.png',
+  },
+  {
+    name: 'Hussain Negah',
+    position: 'Finance Consultent',
+    education:'Studied BBA finance, at Katib University, Having more than five experience in computer programming and web development.',
+    image: 'assets/images/hussain.png',
+  },
+  {
+    name: 'Mahdi Shamim',
+    position: 'Website Developer',
+    education:'Studied Computer Science, at Kabul University, Having more than five experience in computer programming and web development.',
+    image: 'assets/images/mahdi.png',
+  },
+  {
+    name: 'Zahra Amiri',
+    position: 'Admin Officer',
+    education:'Studied Computer Science, at Poli Takhnic University, Having more than five experience in computer programming and web development.',
+    image: 'assets/images/shabnam.png',
+  },
+  {
+    name: 'Hamidullah Purdil',
+    position: 'Application Developer',
+    education:'Studied Computer Science, at Poli Takhnic University, Having more than five experience in computer programming and web development.',
+    image: 'assets/images/hamid.png',
+  },
+];
 
 
   function AddNew() {
