@@ -126,11 +126,10 @@ body {
 
   .see-whole-program {
     text-align: center;
-    color: white;
     padding: 50px;
   }
 
-  .see-whole a {
+  a {
     text-decoration: underline;
     color: white;
   }
