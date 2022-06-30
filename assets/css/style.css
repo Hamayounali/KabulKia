@@ -13,7 +13,7 @@ body {
   overflow: hidden;
   background-color: #fffefd;
   height: 60px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px 0 rgba(1, 1, 1,0.2);
 }
 
 .topnav .icon {
@@ -54,6 +54,7 @@ body {
   .desktop-hide {
     display: none;
   }
+
   .menu-right {
     float: right;
     color: #272a31;
@@ -101,7 +102,7 @@ body {
   }
 
   .services-cards {
-    background-color: rgba(255,255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     text-align: center;
     min-height: 80px;
     border: 2px solid #272a31;
@@ -124,14 +125,14 @@ body {
   }
 
   .see-whole-program {
-    text-align: center; 
-    color:white; 
+    text-align: center;
+    color: white;
     padding: 50px;
   }
 
   .see-whole a {
-    text-decoration: underline; 
-    color:white;
+    text-decoration: underline;
+    color: white;
   }
 
   .mission {
@@ -171,7 +172,7 @@ body {
   .topnav a:not(:first-child) {
     display: none;
   }
-  
+
   .topnav a.icon {
     float: left;
     display: block;
@@ -182,7 +183,7 @@ body {
   .topnav {
     padding-right: 20px;
     padding-left: 20px;
-    background-color: rgba(0, 0, 0, 0.0);
+    background-color: rgba(1, 1, 1, 0.1);
     box-shadow: none;
   }
 
