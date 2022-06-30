@@ -167,6 +167,19 @@ body {
     text-align: center;
   }
 
+  /* top Novebar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #272a31;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+  }
+
   /* Mobile Menu */
   .topnav a:not(:first-child) {
     display: none;
@@ -208,18 +221,6 @@ body {
   .abc {
     text-decoration: none;
     color: white;
-  }
-
-  .topnav a {
-    float: left;
-    display: block;
-    color: #272a31;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Inter, sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    text-align: left;
   }
 
   .topnav.responsive a {
