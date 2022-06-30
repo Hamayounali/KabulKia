@@ -1,8 +1,8 @@
-# Hamayoun Ali portfolio
-This project is to buitl mobile version sceleton of my portfolio.
+# KabulKia Website 
+This project is to buitl mobile version sceleton of KabulKia.
 
 ## Portfolio screen shot
-<img width="257" alt="readme" src="https://user-images.githubusercontent.com/22744775/170495906-1244ad4c-d8dd-4b02-81b8-356fd90783c4.PNG">
+<img width="180" alt="readme" src="https://user-images.githubusercontent.com/22744775/176696897-8e4f2a44-4b28-4b6d-a847-eb82bcff8254.PNG">
 
 ## Page Link 
 https://hamayounali.github.io/hamayoun-portfolio
