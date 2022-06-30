@@ -24,60 +24,59 @@ function toggleButton(a) {
     z.className = 'topnav';
   }
 
-  // Employees
-  const employees = [
+// Employees
+const employees = [
   {
     name: 'Hamayoun Ali',
     position: 'CEO & Full Stack Devloper',
-    education:'Studied Computer Science, at Katib University, Having more than five experience in computer programming and web development.',
+    education: 'Studied Computer Science, at Katib University, Having more than five experience in computer programming and web development.',
     image: 'assets/images/hamayoun.png',
   },
   {
     name: 'Omid Babur',
     position: 'Front-end Developer',
-    education:'Studied Computer Science, at Katib University, Having more than five experience in computer programming and web development.',
+    education: 'Studied Computer Science, at Katib University, Having more than five experience in computer programming and web development.',
     image: 'assets/images/Omid.png',
   },
   {
     name: 'Hussain Negah',
     position: 'Finance Consultent',
-    education:'Studied BBA finance, at Katib University, Having more than five experience in computer programming and web development.',
+    education: 'Studied BBA finance, at Katib University, Having more than five experience in computer programming and web development.',
     image: 'assets/images/hussain.png',
   },
   {
     name: 'Mahdi Shamim',
     position: 'Website Developer',
-    education:'Studied Computer Science, at Kabul University, Having more than five experience in computer programming and web development.',
+    education: 'Studied Computer Science, at Kabul University, Having more than five experience in computer programming and web development.',
     image: 'assets/images/mahdi.png',
   },
   {
     name: 'Zahra Amiri',
     position: 'Admin Officer',
-    education:'Studied Computer Science, at Poli Takhnic University, Having more than five experience in computer programming and web development.',
+    education: 'Studied Computer Science, at Poli Takhnic University, Having more than five experience in computer programming and web development.',
     image: 'assets/images/shabnam.png',
   },
   {
     name: 'Hamidullah Purdil',
     position: 'Application Developer',
-    education:'Studied Computer Science, at Poli Takhnic University, Having more than five experience in computer programming and web development.',
+    education: 'Studied Computer Science, at Poli Takhnic University, Having more than five experience in computer programming and web development.',
     image: 'assets/images/hamid.png',
   },
 ];
 
 function AddNew() {
   for (let j = 0; j < 6; j += 1) {
-    const newH1 = document.getElementById(`name-${j}`)
+    const newH1 = document.getElementById(`name-${j}`);
     newH1.insertAdjacentText('beforeend', employees[j].name);
 
-    const img = document.getElementById(`img-${j}`)
+    const img = document.getElementById(`img-${j}`);
     img.src = employees[j].image;
 
-    const position = document.getElementById(`position-${j}`)
+    const position = document.getElementById(`position-${j}`);
     position.insertAdjacentText('beforeend', employees[j].position);
 
-    const education = document.getElementById(`education-${j}`)
+    const education = document.getElementById(`education-${j}`);
     education.insertAdjacentText('beforeend', employees[j].education);
-
   }
 }
 
