@@ -218,6 +218,14 @@ body {
     color: white;
   }
 
+  .see-whole-2 {
+    text-align: center;
+    color: white;
+    margin: 40px;
+    padding: 30px;
+    background-color: #ec5242;
+  }
+
   .abc {
     text-decoration: none;
     color: white;
@@ -280,14 +288,6 @@ body {
   .employee-name {
     color: #1b1b1b;
     font-family: 'coco', sans-serif;
-  }
-
-  .see-whole {
-    text-align: center;
-    color: white;
-    margin: 40px;
-    padding: 30px;
-    background-color: #ec5242;
   }
 
   .footer-about {
