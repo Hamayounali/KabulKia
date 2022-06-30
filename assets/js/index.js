@@ -3,6 +3,7 @@ function toggleButton(a) {
   a.classList.toggle('change');
 }
 
+/* eslint-disable */
 function menuFunction() {
   const x = document.getElementById('myTopnav');
   if (x.className === 'topnav') {
@@ -17,6 +18,7 @@ function menuFunction() {
     y.className = 'hide-2';
   }
 }
+/* eslint-enable */
 
 function hideMenu() {
   const z = document.getElementById('myTopnav');
