@@ -1,28 +1,28 @@
 // Project section Data
 // Mobile Menu Portions
 function toggleButton(a) {
-    a.classList.toggle('change');
-  }
+  a.classList.toggle('change');
+}
   
-  function menuFunction() {
-    const x = document.getElementById('myTopnav');
-    if (x.className === 'topnav') {
-      x.className += ' responsive';
-    } else {
-      x.className = 'topnav';
-    }
-    const y = document.getElementById('brand');
-    if (y.className === 'hide-2') {
-      y.className = 'hide';
-    } else {
-      y.className = 'hide-2';
-    }
+function menuFunction() {
+  const x = document.getElementById('myTopnav');
+  if (x.className === 'topnav') {
+    x.className += ' responsive';
+  } else {
+    x.className = 'topnav';
   }
-  
-  function hideMenu() {
-    const z = document.getElementById('myTopnav');
-    z.className = 'topnav';
+  const y = document.getElementById('brand');
+  if (y.className === 'hide-2') {
+    y.className = 'hide';
+  } else {
+    y.className = 'hide-2';
   }
+}
+
+function hideMenu() {
+  const z = document.getElementById('myTopnav');
+  z.className = 'topnav';
+}
 
 // Employees
 const employees = [
