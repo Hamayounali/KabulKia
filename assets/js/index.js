@@ -1,9 +1,10 @@
-// Project section Data
 // Mobile Menu Portions
 function toggleButton(a) {
   a.classList.toggle('change');
 }
-  
+
+toggleButton();
+
 function menuFunction() {
   const x = document.getElementById('myTopnav');
   if (x.className === 'topnav') {
@@ -19,10 +20,14 @@ function menuFunction() {
   }
 }
 
+menuFunction();
+
 function hideMenu() {
   const z = document.getElementById('myTopnav');
   z.className = 'topnav';
 }
+
+hideMenu();
 
 // Employees
 const employees = [
