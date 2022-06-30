@@ -237,7 +237,7 @@ body {
     font-size: 20px;
   }
 
-  .topnav a {
+  .topnav > a {
     float: left;
     display: block;
     color: #272a31;
@@ -280,7 +280,7 @@ body {
     background-color: #ec5242;
   }
 
-  .see-whole a {
+  .see-whole > a {
     text-decoration: none;
     color: white;
   }
