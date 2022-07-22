@@ -1,5 +1,5 @@
 # KabulKia Website
-Software Development Company 
+Software Development Company, We design and develop software applications and websites using the latest software technologies. We enjoy a dedicated front-end & back-end professional developer team, and as well as a well-established network of experts and clients.
 
 ## KabulKia screen shot
 
